@@ -419,3 +419,52 @@ main {
     height: 300px;
     background-color: #B4D0E7;
 }
+
+#colors2 h1 {
+    font-size: 40px;
+}
+
+#main2 {
+    margin-top: 0;
+}
+
+.main2-div {
+    padding-top: 100px;
+}
+
+.main2-div h1 {
+    width: 500px;
+}
+
+.main2-div div {
+    position: relative;
+    float: right;
+    top: -85px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#main2-h1 {
+    margin-top: 300px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid grey;
+}
+
+#main2 h4 {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid grey;
+}
+
+#main2 h4 div {
+    float: right;
+    font-size: large;
+    margin-right: 20px;
+}
+
+#colors3 {
+    background-color: black;
+}
