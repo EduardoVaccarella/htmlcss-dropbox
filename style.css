@@ -71,7 +71,7 @@ section {
 }
 
 section h1 {
-    font-size: 90px;
+    font-size: 5vw;
     font-weight: 700;
     margin-bottom: 50px;
 }
@@ -105,10 +105,10 @@ section :nth-child(5) {
 }
 
 section img {
-    width: 875px;
+    width: 50%;
     position: absolute;
-    right: 375px;
-    top: 435px;
+    right: 10%;
+    top: 57%;
 }
 
 #sezione2 {
@@ -221,12 +221,12 @@ main {
 }
 
 #card-centrale {
-    margin-left: 57px;
-    margin-right: 57px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 #orizzontale {
-    width: 100%;
+    width: 97%;
     height: 150px;
     padding-bottom: 60px;
 }
@@ -255,12 +255,14 @@ main {
 
 .section-immagine :first-child {
     display: inline-block;
-    height: 100%;
+    max-width: 100%;
+}
+
+#immagine {
+    width: 50%;
 }
 
 .descrizione {
-    position: relative;
-    top: -310px;
     display: inline-block;
     padding: 50px;
     height: 600px;
@@ -293,7 +295,7 @@ main {
 
 .card2 {
     display: inline-block;
-    width: 31%;
+    width: 30%;
     height: 500px;
     margin-top: 50px;
     padding-bottom: 100px;
@@ -304,8 +306,8 @@ main {
 }
 
 .centrale {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .sottotitolo4 {
@@ -334,7 +336,7 @@ main {
 
 .float {
     float: left;
-    width: 500px;
+    width: 25%;
     height: 100%;
     background-color: orange;
 }
@@ -421,7 +423,7 @@ main {
 }
 
 #colors2 h1 {
-    font-size: 40px;
+    font-size: 2vw;
 }
 
 #main2 {
@@ -466,5 +468,24 @@ main {
 }
 
 #colors3 {
+    margin-top: 250px;
     background-color: black;
+}
+
+.colors-lista {
+    color: white;
+    display: inline-block;
+    width: 10%;
+    height: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 9%;
+}
+
+.colors-lista h2 {
+    margin-bottom: 40px;
+}
+
+.colors-lista div {
+    margin-top: 10px;
 }
