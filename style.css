@@ -489,3 +489,21 @@ main {
 .colors-lista div {
     margin-top: 10px;
 }
+
+#linea {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid lightgrey;
+    width: 10%;
+}
+
+#footer2 {
+    padding-top: 40px;
+    padding-left: 9%;
+    padding-bottom: 10px; 
+    background-color: black;
+}
+
+#footer2 :nth-child(2) {
+    color: white;
+}
